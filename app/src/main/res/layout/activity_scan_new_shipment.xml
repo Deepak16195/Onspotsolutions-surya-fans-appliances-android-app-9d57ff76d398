@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/app_background"
+    tools:context="com.surya.onspot.qrscanFragments.ScanNewShipmentActivity">
+
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/toolbar" />
+
+
+    <ListView
+        android:id="@+id/scanShipmentList"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/toolbar"
+        android:visibility="gone" />
+
+
+    <Button
+        android:id="@+id/button_start_scanning"
+        style="@style/home_screen_button_style"
+        android:layout_centerInParent="true"
+        android:layout_margin="25dp"
+        android:gravity="center"
+        android:text="Start Scanning" />
+
+    <LinearLayout
+        android:id="@+id/ly_scan_system"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal"
+        android:padding="5dp"
+        android:visibility="gone">
+
+        <Button
+            android:id="@+id/button_addmore"
+            style="@style/home_screen_button_style1"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:text="Add More" />
+
+        <Button
+            android:id="@+id/button_done"
+            style="@style/home_screen_button_style1"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:text="Done" />
+
+        <Button
+            android:id="@+id/button_discard_all"
+            style="@style/home_screen_button_style1"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:text="Remove" />
+
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/app_background"
+    android:gravity="center"
+    android:orientation="vertical">
+
+
+    <android.support.v7.widget.AppCompatSpinner
+        android:id="@+id/spinnerFeedback"
+        style="@style/CustomSpinnerDark2"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="15dp"
+        android:background="@drawable/bg_dropdown"
+        android:textSize="30sp" />
+
+
+    <EditText
+        android:id="@+id/feedback"
+        android:layout_width="250dp"
+        android:layout_height="200dp"
+        android:layout_marginLeft="3dp"
+        android:layout_marginRight="3dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/custom_rect_shape_white"
+        android:gravity="top|left"
+        android:hint="@string/enter_your_feedback"
+        android:inputType="textMultiLine"
+        android:maxLines="10"
+        android:paddingLeft="10dp"
+        android:paddingTop="15dp"
+        android:singleLine="false"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
+        android:translationY="10dp" />
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal"
+        android:padding="5dp">
+
+        <com.andexert.library.RippleView
+            android:id="@+id/ripple1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:rv_rippleDuration="200"
+            app:rv_type="rectangle">
+
+            <Button
+                android:id="@+id/feedbacksubmit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/button_shadow"
+                android:text="@string/submit_feedback"
+                android:textColor="@color/white" />
+        </com.andexert.library.RippleView>
+    </LinearLayout>
+
+</LinearLayout>

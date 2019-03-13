@@ -1,0 +1,101 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/app_background"
+    tools:context="com.surya.onspot.qrscanFragments.FragmentEarnedDetailScreen">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#dadada"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/rounded_white_background"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:id="@+id/linearLayout_top_list2"
+                android:layout_width="match_parent"
+                android:layout_height="90dp"
+                android:background="@drawable/top_rounded_rectangle_red"
+                android:clipToPadding="false"
+                android:elevation="7dp"
+                android:orientation="horizontal"
+                android:weightSum="2">
+
+                <ImageView
+                    android:id="@+id/imageView_left"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.9"
+                    android:padding="25dp"
+                    android:src="@drawable/earned_history"></ImageView>
+
+                <TextView
+                    android:id="@+id/textView_title"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="1.1"
+                    android:gravity="center"
+                    android:text="EARNED\nHISTORY"
+                    android:textColor="@color/white"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+            <ListView
+                android:id="@+id/listView_list"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_above="@+id/relativeLayout_bottom_list2"
+                android:layout_below="@+id/linearLayout_top_list2"
+                android:background="@color/app_background"
+                android:divider="@null"
+                android:dividerHeight="0dp"
+                tools:listitem="@layout/row_earned_history_list"></ListView>
+
+            <RelativeLayout
+                android:id="@+id/relativeLayout_bottom_list2"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_alignParentBottom="true"
+                android:background="@drawable/bottom_rounded_rectangle_red"
+                android:visibility="gone">
+
+                <TextView
+                    android:id="@+id/textView_next_list_2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:paddingLeft="20dp"
+                    android:paddingRight="20dp"
+                    android:text="Next"
+                    android:textColor="@color/white"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:id="@+id/imageView_next_arrow"
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:layout_centerVertical="true"
+                    android:layout_toRightOf="@+id/textView_next_list_2"
+                    android:rotation="270"
+                    android:src="@drawable/ic_keyboard_arrow_down_black_24dp"
+                    android:tint="@color/white" />
+
+            </RelativeLayout>
+
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>

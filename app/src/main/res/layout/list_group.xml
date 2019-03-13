@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="#fff"
+    android:orientation="vertical"
+    android:padding="8dp">
+
+    <TextView
+        android:id="@+id/lblListHeader"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="?android:attr/expandableListPreferredItemPaddingLeft"
+        android:textColor="#000"
+        android:textSize="17dp" />
+
+    <RelativeLayout
+        android:id="@+id/RelativeLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:padding="5dp">
+
+        <Button
+            android:id="@+id/scanbutton1"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_alignBaseline="@+id/scanbutton"
+            android:background="@drawable/ic_share_red"
+            android:focusable="false"
+            android:gravity="left"
+            android:textColor="@color/white" />
+
+        <Button
+            android:id="@+id/deletebutton1"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_alignBaseline="@+id/scanbutton"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/ic_delete1"
+            android:focusable="false"
+            android:gravity="right"
+            android:textColor="@color/white" />
+    </RelativeLayout>
+
+    <com.andexert.library.RippleView
+        android:id="@+id/ripple1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:rv_rippleDuration="200"
+        app:rv_type="rectangle"></com.andexert.library.RippleView>
+
+</LinearLayout>

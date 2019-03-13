@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/app_background"
+    tools:context="com.surya.onspot.qrscanFragments.ScanShipmentActivity">
+
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/toolbar"/>
+
+    <LinearLayout
+        android:id="@+id/linearLayout_start_scanning"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:orientation="vertical"
+        android:paddingLeft="50dp"
+        android:paddingRight="50dp"
+        android:visibility="visible">
+
+        <EditText
+            android:id="@+id/editText_number_of_cartons"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/rounded_surya_background_stroke"
+            android:hint="Number of cartons"
+            android:inputType="number"
+            android:maxLength="4"
+            android:padding="12dp"
+            android:textColor="@color/black" />
+
+        <Button
+            android:id="@+id/button_start_scanning"
+            style="@style/home_screen_button_style"
+            android:layout_marginTop="20dp"
+            android:text="Start Scanning" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout_resume"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:orientation="vertical"
+        android:paddingLeft="50dp"
+        android:paddingRight="50dp"
+        android:visibility="gone">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Scann Summary"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:id="@+id/textView_scan_status"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:textColor="@color/black" />
+
+        <Button
+            android:id="@+id/button_resume_now"
+            style="@style/home_screen_button_style"
+            android:layout_marginTop="20dp"
+            android:text="Resume Now" />
+
+        <Button
+            android:id="@+id/button_stop_and_submit"
+            style="@style/home_screen_button_style"
+            android:layout_marginTop="20dp"
+            android:text="Stop and Submit" />
+
+        <Button
+            android:id="@+id/button_discard_all"
+            style="@style/home_screen_button_style"
+            android:layout_marginTop="20dp"
+            android:text="Discard All" />
+
+    </LinearLayout>
+
+</RelativeLayout>

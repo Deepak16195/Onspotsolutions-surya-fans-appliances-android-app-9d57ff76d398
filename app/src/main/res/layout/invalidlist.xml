@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/popup"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="5dp"
+    android:background="#E6FFFFFF"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="2dp">
+
+    <RelativeLayout
+        android:id="@+id/RelativeLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:padding="5dp">
+
+        <Button
+            android:id="@+id/scanbutton"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_alignBaseline="@+id/scanbutton"
+            android:background="@drawable/ic_share_red"
+            android:focusable="false"
+            android:gravity="left"
+            android:textColor="@color/white" />
+
+        <Button
+            android:id="@+id/deletebutton"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_alignBaseline="@+id/scanbutton"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/ic_delete1"
+            android:focusable="false"
+            android:gravity="right"
+            android:textColor="@color/white" />
+
+        <ImageView
+            android:id="@+id/scannedQRImagevalid"
+            android:layout_width="120dp"
+            android:layout_height="149dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/invalid_image"
+            android:focusable="false"
+            android:scaleType="center" />
+    </RelativeLayout>
+
+    <ListView
+        android:id="@+id/lvExpvalid"
+        style="@style/ListFont"
+        android:layout_width="match_parent"
+        android:layout_height="174dp"
+        android:layout_weight="0.54"></ListView>
+
+
+    <RelativeLayout
+        android:id="@+id/RelativeLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:padding="5dp">
+
+        <com.andexert.library.RippleView
+            android:id="@+id/ripple1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:rv_rippleDuration="200"
+            app:rv_type="rectangle"></com.andexert.library.RippleView>
+
+    </RelativeLayout>
+</LinearLayout>

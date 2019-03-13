@@ -1,0 +1,392 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Surya</string>
+    <string name="Home">Onspot</string>
+    <string name="About">About Us</string>
+    <string name="Term">Term Of Service</string>
+    <string name="AppBasics">App Basics</string>
+    <string name="FAQ">FAQ</string>
+    <string name="Feedback">Feedback</string>
+    <string name="Rewards">Rewards</string>
+    <string name="Licenses">Licenses</string>
+    <string name="ScanHistory">History</string>
+    <string name="MyProfile">My Profile</string>
+    <string name="replacement_warranty">Replacement/Warranty</string>
+    <string name="textWithHtml1">&lt;a href="http://www.google.com">Google&lt;/a></string>
+    <string name="drawer_open">Open navigation drawer</string>
+    <string name="drawer_close">Close navigation drawer</string>
+    <string name="action_settings">Settings</string>
+    <string name="locationTxt">LocationProvider</string>
+    <string name="internetmessage">No Internet Connection</string>
+    <string name="action_exit">Exit</string>
+    <string name="invalid">This Qr code is invalid</string>
+    <string name="feedback">Coming Soon</string>
+    <string name="country_prompt">India</string>
+    <string name="loadertext">Verifying your scan</string>
+    <string name="homeLine1">
+
+
+<![CDATA[
+Scan QR Code:
+-  Scan Onspot QR codes to obtain full product information.
+]]>
+    </string>
+    <string name="homeLine2">
+<![CDATA[
+FAQ:
+  - Have a question? Check out the Frequently asked questions sections.
+]]>
+    </string>
+    <string name="homeLine3">
+<![CDATA[
+History:
+ - View details about your app usage, past verifications and scans.
+]]>
+    </string>
+    <string name="homeLine4">
+<![CDATA[
+About:
+ - A Brief note about Onspot Solutions Pvt Ltd.
+]]>
+    </string>
+    <string name="homeLine5">
+<![CDATA[
+Settings:
+  - Change your personal information such as Name, Email.
+]]>
+    </string>
+    <string name="homeLine6">
+<![CDATA[
+ Feedback:
+  - Have something to tell us, give us your valued feedback.
+]]>
+    </string>
+    <string name="homeLine7">
+<![CDATA[
+Rewards:
+  - Point Based System for using the App.
+]]>
+    </string>
+    <string name="homeLine8">
+<![CDATA[
+Share This App:
+  - Like what you are doing, spread the word.
+]]>
+    </string>
+
+    <string-array name="feddback_array1">
+        <item>Choose Feedback for </item>
+    </string-array>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <!--LOGIN SCREEN-->
+    <string name="sign_up_activity_sign_in">SIGN IN</string>
+
+    <!--HOME SCREEN-->
+    <string name="scan_barcode">Tap Here to Scan QR Code</string>
+    <string name="torch_is_on">Torch is on</string>
+    <string name="torch_is_off">Torch is Off</string>
+    <string name="history">History</string>
+    <string name="rewards">Rewards</string>
+
+    <!--DRAWER LAYOUT-->
+    <string name="drawer_header_text">Ministry of Consumer Affairs</string>
+    <string name="drawer_header_text_gov">Government of India</string>
+    <string name="drawer_home">HOME</string>
+    <string name="drawer_about_us">ABOUT US</string>
+    <string name="drawer_app_basics">APP BASICS</string>
+    <string name="drawer_faq">FAQ</string>
+    <string name="drawer_feedback">FEEDBACK</string>
+    <string name="drawer_rewards">REWARDS</string>
+    <string name="drawer_license">LICENSES</string>
+    <string name="drawer_scan_history">SCAN HISTORY</string>
+    <string name="drawer_stock_report">STOCK REPORT</string>
+    <string name="drawer_my_profile">MY PROFILE</string>
+    <string name="drawer_terms_of_services">TERMS OF SERVICES</string>
+    <string name="drawer_replace_warranty">REPLACEMENT/WARRANTY</string>
+    <string name="drawer_search_history">SEARCH HISTORY</string>
+
+    <!--ABOUT US-->
+    <string name="about_us_title">About Us</string>
+    <string name="about_us"><![CDATA[Onspot bridges the gap between product & consumer to protect against counterfeiting.   Onspot\'s MVP (Mobile Verification Platform) gives helpful, on-demand, real time product information.   It also helps consumers to verify the integrity of the products they purchase.]]></string>
+
+    <!--APP BASICS-->
+    <string name="app_basics_title">App Basics</string>
+    <string name="app_basics">
+"Scan QR Code :
+Scan QR Codes to obtain full product information\n
+History : View details about your app usage, past verification and scans.\n
+About Us : A Brief note about the OnSpot, Consumer Affairs, Govt. of India and Onspot Solutions Pvt Ltd.\n
+Settings  : Change your personal information such as Name, Email\n
+FAQ : Have a question?. Check out the Frequently Asked Questions section.\n"
+</string>
+
+    <!--FAQ-->
+    <string name="faq_title">FAQ</string>
+    <string name="faq">"
+1. Why are my personal details required to use OnSpot App?
+-> a. Your personal details are required for registration purpose.
+Your detail is strictly confidential and not shared with anybody.
+b. Your mobile number is used to send back an authentication code which completes your registration towards usage of the app.
+In case you have activated Do Not Disturb on your SIM, your email will be used to send back the authentication code.
+c. Your email is also used for communicating important messages between MINISTRY OF CONSUMER AFFAIRS and yourself.
+
+2. What does an INVALID response mean?
+-> INVALID response means that the product you have purchased could not be validated against the database.
+
+3. What if I change my Mobile Device?
+-> When you change your device, please ensure that you have forwarded all your purchases related responses to your alternative email id for future reference. If your SIM is still the same, you would be required to download and install the App, follow the registration procedures and you would be able to use the App again.
+
+4. What if I change my SIM Phone Number?
+-> To continue using the App, you are requested to register your new phone number with us. If your mobile device is still the same, you can go to Settings and update your records with the new phone number. You will receive an activation code and will be able to use the App like before.
+
+5. How do I change my preferred language?
+-> The Jaago Grahak Jaago App is available, both in English and Hindi. While using the App., at any point of time, you , the user can go to Settings and change the language.. All contents in the Jaago Grahak Jaago App will be displayed in your preferred language. This will be applicable on the interactive elements too such as buttons, alert's etc."</string>
+
+    <!--FEEDBACK SCREEN-->
+    <string name="feedback_title">Feedback</string>
+    <string name="enter_your_feedback">Enter your feedback</string>
+    <string name="submit_feedback">SUBMIT</string>
+    <string-array name="feddback_array" color="#000000">
+        <item>Feedback for OnSpot</item>
+    </string-array>
+    <string-array name="search_history_mode_array" color="#000000">
+        <item>Shipment Made</item>
+        <item>Shipment Received</item>
+    </string-array>
+
+    <string-array name="search_history_mode_array_retailer" color="#000000">
+        <item>Shipment Received</item>
+    </string-array>
+
+    <!--REWARD SCREEN-->
+    <string name="reward_title">REWARDS</string>
+    <string name="rewards_content_message">You have earned 100 points so far by using OnSpot app</string>
+
+
+    <!--SCAN HISTORY-->
+    <string name="scan_history_title">HISTORY</string>
+    <string-array name="settings">
+        <item>Valid</item>
+        <item>Invalid</item>
+    </string-array>
+
+    <!--MY PROFILE-->
+    <string name="received_history_page_title">Received History</string>
+    <string-array name="received_tabs">
+        <item>Complete</item>
+        <item>Pending</item>
+        <!--<item>Language</item>-->
+    </string-array>
+
+    <string name="shipment_history_page_title">Shipment History</string>
+    <string-array name="shipment_tabs">
+        <item>Completed</item>
+        <item>Pending</item>
+        <!--<item>Language</item>-->
+    </string-array>
+
+    <!--CHANGE NAME SCREEN-->
+    <string name="hint_current_name">Current Name</string>
+    <string name="hint_new_name">New Name</string>
+    <string name="submit_profile">SUBMIT</string>
+    <string name="update_your_name">Update your name</string>
+    <string name="both_names_can_not_same">Both names cannot be same</string>
+    <string name="api_name_update_successfully">Your name is updated successfully</string>
+    <string name="api_old_name_is_wrong">Please check your current name</string>
+
+    <!--EDIT EMAIL SCREEN-->
+    <string name="hint_current_email">Current Email</string>
+    <string name="hint_new_email">New Email</string>
+    <string name="update_your_email_address">Update Your Email Address</string>
+    <string name="both_emails_cannot_be_same">Both emails cannot be same</string>
+    <string name="verification_request_message">A Verification-Key has been sent to the requested EmailId. Please enter this verification-Key for successfull update of your EmailId.</string>
+    <string name="incorrect_current_email_address">Incorrect current email address</string>
+
+    <!--VERIFY EMAIL OTP SCREEN-->
+    <string name="submit_verify_otp">SUBMIT</string>
+    <string name="enter_verification_key_for_change_email">Enter verification key for changing email.</string>
+    <string name="enter_verification_key">Enter Verification Key</string>
+    <string name="email_address_updated_successfully">Email address updated successfully.</string>
+    <string name="invalid_verification_key">Verification-Key entered by you is not valid</string>
+
+    <!--EDIT MOBILE NUMBER SCREEN-->
+    <string name="hint_current_mobile_number">Current Mobile Number</string>
+    <string name="hint_new_mobile_number">New Mobile Number</string>
+    <string name="update_your_mobile_number">Update Your Mobile Number</string>
+    <string name="both_number_cannot_be_same">Both numbers cannot be same</string>
+    <string name="incorrect_current_mobile_number">Incorrect current mobile number</string>
+    <string name="verification_request_message_for_mobile_number">A Verification-Key has been sent to the requested mobile number. Please enter this verification-Key for successfully update of your requested mobile number.</string>
+    <string name="enter_verification_key_for_change_mobile_number">Enter Verification key for changing mobile number</string>
+    <string name="mobile_number_updated_successfully">Mobile number updated successfully</string>
+    <string name="please_enter_otp">Please enter otp</string>
+
+    <!--APP RELATED-->
+    <string name="no_internet_connection">No Internet Connection.</string>
+    <string name="request_time_out">We could not connect to the server.</string>
+    <string name="crash_error">Oops! Something went wrong on server.</string>
+    <string name="action_text_ok">OK</string>
+    <string name="action_text_cancel">CANCEL</string>
+    <string name="api_loading_dialog_message_requesting">Requesting...</string>
+    <string name="api_loading_dialog_message_authenticating">Authenticating...</string>
+    <string name="location_setting_not_on">Location Settings not ON.</string>
+    <string name="qr_code">QR Code</string>
+    <string name="scan_status">Scan Status</string>
+    <string name="scan_response">Response</string>
+    <string name="scan_date">Scan Date</string>
+    <string name="brand_name">Brand Name</string>
+    <string name="scan_invalid">Invalid</string>
+    <string name="scan_valid">Valid</string>
+    <string name="feedback_successfully_submitted">Feedback successfully submitted</string>
+    <string name="no_data_available">No data available</string>
+    <string name="onpost_title">Home</string>
+    <string name="hi_terms_and_services">"सेवा की शर्तें
+
+सेवा अनुबंध ("सेवा की शर्तें") की यह शर्तें आपके और एमसीए के बीच संबंध को "ग्राहक सेवा मंत्रालय" या "हमें" या "हम" के बारे में जुडा गराहै जागो मोबाइल एप्लिकेशन ("ऐप") के उपयोग के बारे में बताती हैं। कृपया इन सेवा की शर्तों को सावधानी से पढ़ें क्योंकि वे ऐप के आपके ऐक्सेस और उपयोग को नियंत्रित करते हैं और हमारे ऐप के उपयोग के लिए कानूनी तौर पर बाध्यकारी शर्तों को निर्धारित करते हैं।
+
+आप इस बात को मानते हैं और सहमत होते हैं कि, एप का उपयोग या उपयोग करके, आप यह इंगित कर रहे हैं कि आपने पढ़ा है, समझ लिया है और सेवा के इन शर्तों से बाध्य होने के लिए सहमत हैं, चाहे आपने खाता पंजीकृत किया हो या नहीं।
+यदि आप इन शर्तों की शर्तों से सहमत नहीं हैं, तो आपको एप्लिकेशन का उपयोग या उपयोग नहीं करना चाहिए।
+
+आपके समझौते के विषय में और सेवा की इन शर्तों और किसी भी अन्य प्रासंगिक एमसीए नीतियों के साथ जारी अनुपालन के अधीन, एमसीए आपको एक गैर-अनन्य, गैर-स्थानान्तरणीय, पुनरावर्तनीय, सीमित लाइसेंस प्रदान करता है, इस ऍप का उपयोग केवल प्रामाणिकता, खेप ट्रैकिंग, प्रोडक्ट प्रमोशन, लॉयल्टी एंड रिवार्ड्स के प्रयोजनों के लिए ही किया जा सकता है
+आप किसी अन्य उद्देश्य के लिए ऐप का उपयोग नहीं करने के लिए सहमत हैं
+सेवा की इन शर्तों के उल्लंघन में और नीचे दी गई उपयोग की सीमाओं का उपयोग, एप का उपयोग, पूर्ववर्ती सीमित लाइसेंस के तुरंत निरस्तीकरण में हो सकता है, और कानून के उल्लंघन के लिए आपको देयता के अधीन हो सकते है |
+ऐप को एक्सेस करना
+
+ऐप के कुछ विशेषताओं तक पहुंचने के लिए, आपको हमारे साथ एक खाता बनाने के लिए पंजीकरण करना होगा (एक "खाता")। आप किसी खाते के लिए पंजीकरण करते समय सटीक, वर्तमान और पूर्ण जानकारी प्रदान करने के लिए सहमत हैं और यह यथासंभव सटीक, वर्तमान और पूर्ण रखने के लिए आवश्यक जानकारी अपडेट कर सकते हैं। यदि आप कोई खाता नहीं बनाते हैं तो आप ऐप के माध्यम से उपलब्ध कराए गए सभी सुविधाओं का उपयोग या  ऍप उपयोग करने में सक्षम नहीं हो सकते हैं।
+आप अपने खाते के अंतर्गत किसी भी गतिविधि या कार्यों के लिए एकमात्र जिम्मेदारी लेने के लिए सहमत हैं, चाहे आप इस तरह की गतिविधियों या क्रिया को अधिकृत कर चुके हों या नहीं।
+आपको एप्लिकेशन से कनेक्ट होने के लिए आवश्यक इंटरनेट कनेक्शन और सॉफ़्टवेयर सहित सभी उपकरण होना चाहिए, और किसी भी शुल्क के लिए आप ज़िम्मेदार हैं, जिसमें इंटरनेट कनेक्शन या मोबाइल फीस शामिल है, जो आपको एप्लिकेशन के उपयोग में लगते हैं। इंटरनेट एक अंतर्निहित अस्थिर माध्यम है, त्रुटियां, चूक, रुकावट और इंटरनेट और नेटवर्क सेवा की देरी किसी भी समय हो सकती है। परिणामस्वरूप हम ऐसी त्रुटियों, चूक, रुकावट या देरी के संबंध में कोई जिम्मेदारी नहीं लेते हैं। हम यह गारंटी नहीं देते हैं कि एप्लिकेशन किसी भी विशिष्ट मोबाइल डिवाइस या किसी विशेष सॉफ्टवेयर में, या तो पूरी तरह से या भाग में काम करेगा, और यदि आप किसी भी त्रुटि, रुकावट, हार्डवेयर या आपके डिवाइस की सॉफ़्टवेयर खराबी के कारण ऐप का उपयोग नहीं कर सकते, तो हम कोई ज़िम्मेदारी स्वीकार नहीं करेंगे।
+ऐप का उपयोग करते समय हम किसी भी मोबाइल डिवाइस या सॉफ़्टवेयर के लिए होने वाली किसी भी क्षति के लिए, जो कि किसी भी क्षति के लिए, कोई भी देयता नहीं (चाहे अनुबंध में, लापरवाही, वैधानिक शुल्क या किसी अन्य कारण की कार्यवाही सहित शुल्क का उल्लंघन) को स्वीकार करते हैं किसी उत्पाद की प्रामाणिकता रिपोर्ट में उत्पाद सहित उत्पाद के बारे में जानकारी शामिल हो सकती है, लेकिन यह एमआरपी, निर्माण की तारीख, निर्माण की जगह, तक ही सीमित नहीं है। इस तरह की जानकारी ब्रांड मालिकों या निर्माताओं द्वारा एमसीए को प्रदान की जाती है और हम इस तरह की जानकारी की सटीकता के संबंध में कोई देयता स्वीकार नहीं करते हैं।
+
+
+
+
+
+
+उपयोग पर प्रतिबंध
+
+ऍप के उपयोग पर निम्न प्रतिबंध लागू होते हैं:
+
+ए) आप केवल प्रामाणिकता, खेप ट्रैकिंग उद्देश्यों की जांच करने और प्रचार, लॉयल्टी और रिवार्ड्स  कार्यक्रमों में प्रवेश के लिए आवेदन का उपयोग करेंगे;
+
+बी) आप किसी भी व्यावसायिक विज्ञापनों को विज्ञापित, मांगने या संचारित करने के लिए ऍप का उपयोग नहीं करेंगे, जिसमें श्रृंखला पत्र, जंक ई-मेल या दोहराए संदेश किसी को भी शामिल होंगे;
+
+सी) आप किसी भी अवैध आचरण में संलग्न करने के लिए ऍप का उपयोग नहीं कर सकते।
+डी) आप सहमत हैं कि आप एमसीए समर्थन सेवाओं का गलत इस्तेमाल नहीं करेंगे, जिसमें हमारे समर्थन कर्मियों के बारे में गलत संचार रिपोर्ट प्रस्तुत करना  और अपवित्र और अपमानजनक भाषा का इस्तेमाल करना सम्मलिति है
+
+ई) आप सहमत हैं कि आप अनुप्रयोगों को संशोधित करने या हस्तक्षेप करने के लिए डिज़ाइन किये हुए सॉफ्टवेयर , धोखा करने वाले, अनुचित कारनामे या लाभ उठानेवाले, स्वचालन सॉफ्टवेयर, बॉट्स, हैक्स, मोड या किसी अनधिकृत तृतीय पक्ष सॉफ़्टवेयर के डिज़ाइन या डिज़ाइन करने में सहायता नहीं करेंगे;
+
+एफ) आप सहमत हैं कि आप एमसीए द्वारा स्पष्ट रूप से अनुमति नहीं देने तक ऍप की किसी भी फाइल को संशोधित या संशोधित नहीं करेंगे
+जी) आप किसी भी तरह के हमले में शामिल नहीं हो सकते हैं, सहयोग कर सकते हैं या शामिल नहीं किए जा सकते हैं, जिसमें सीमा का उल्लंघन, वायरस के प्रसार,  डिनायल ऑफ़ सर्विस आक्रमण और ऍप भंग करने के प्रयास, किसी अन्य व्यक्ति के अनुप्रयोग के आनंद को या एप्लिकेशन के उपयोग को  बाधित करने के अन्य प्रयास शामिल है
+एच) आप ऐप से अनधिकृत पहुंच प्राप्त करने का प्रयास नहीं करेंगे, एमसीए द्वारा प्रदान किए गए उपयोगकर्ता इंटरफ़ेस के अलावा अन्य किसी भी तरह से ऐप से जुड़े मोबाइल डिवाइसों, सर्वरों या नेटवर्क से पंजीकृत खातों या खाते, किसी भी सुरक्षा, तकनीक, उपकरण या सॉफ़्टवेयर जो एप का हिस्सा है, को निरोध करने या संशोधित करने, या प्रोत्साहित करने या किसी अन्य व्यक्ति को प्रोत्साहित करने या उसकी सहायता करने के लिए, धोखा देने या ऍप को संशोधित तक सीमित नहीं हैं,
+i) आप एप्लिकेशन को अपलोड, पोस्ट, ई-मेल, या अन्यथा किसी भी सामग्री को संचारित करने के लिए उपयोग नहीं कर सकते
+	(1) इसमें गैरकानूनी, हानिकारक, धमकी, शर्मनाक, अपमानजनक, उत्पीड़न, उत्पीड़न, अपमानजनक, अश्लील, अश्लील, बेईमानी, भ्रामक, धोखाधड़ी, किसी अन्य की गोपनीयता के घृणित, घृणित, या यौन या हिंसक के स्पष्ट या ग्राफ़िक वर्णन या खातों में शामिल है (लेकिन यह किसी अन्य व्यक्ति या व्यक्तियों के समूह पर निर्देशित हिंसक या धमकी प्रकृति की यौन भाषा सहित, तक ही  सीमित नहीं);
+	(2) इसमें किसी व्यक्ति या व्यक्ति के समूह को किसी भी अपर्याप्त वर्गीकरण के आधार पर, बिना किसी सीमा, धर्म, लिंग, यौन अभिविन्यास, जाति, रंग, पंथ, जातीयता, राष्ट्रीय मूल, नागरिकता के आधार पर शिकार, उत्पीड़न,  , उम्र, वैवाहिक स्थिति, वयोवृद्ध स्थिति या विकलांगता; अपमानित करना या धमकाना शामिल है
+	(3) किसी भी व्यक्ति को किसी भी तरह से हानि पहुँचाना शामिल है;
+	(4) जो किसी भी पार्टी / व्यक्ति के पेटेंट, ट्रेडमार्क, व्यापार रहस्य, कॉपीराइट, या अन्य बौद्धिक या स्वामित्व या गोपनीयता अधिकार का उल्लंघन करता है;
+	(5) आपके पास किसी भी कानून या विनियमन के तहत संचारित या किसी संविदात्मक या प्रत्ययी रिश्ते (जैसे अंदरूनी जानकारी, बौद्धिक, स्वामित्व या गोपनीय जानकारी जो रोजगार के संबंधों के भाग के रूप में सीखा या प्रकट किया गया है या नॉनसडिस्कोजर समझौते के तहत) के तहत संचारित करने का अधिकार नहीं है; या
+	(6) जो  अन्यथा प्रोत्साहित करना, आपराधिक आचरण या आचरण जो कि नागरिक दायित्वों को जन्म दे सकती है, को गठित करना शामिल है
+
+जे)  सिवाय जहां कानून या प्रासंगिक ओपन सोर्स लाइसेंस द्वारा अनुमोदित, आप इंजीनियर, विघटित करने, जुदा करना, समझने या अन्यथा किसी अंतर्निहित सॉफ़्टवेयर या अन्य बौद्धिक संपदा ऐप प्रदान करने के लिए स्रोत कोड को प्राप्त करने की कोशिश नहीं करेंगे, या किसी भी ऐप से प्राप्त ऐप से प्राप्त किसी भी जानकारी या विधि एमसीए द्वारा स्पष्ट रूप से अनुमति नहीं दी गई है
+के)  ऐप के जरिये व्यक्तिगत पहचान योग्य जानकारी (पाठ, छवि या वीडियो प्रपत्र में), पहचान दस्तावेजों या वित्तीय जानकारी सहित किसी की निजी जानकारी की मांग, जिसमे उतपत्ति या पोस्ट नहीं करना शामिल है
+
+तृतीय पक्ष विज्ञापन
+एमसीए तीसरे पक्ष की वेबसाइटों या विक्रेताओं को ऐप पर लिंक प्रदान कर सकता है इन तृतीय पक्षों के साथ आपके लेन-देन में होने वाले कोई शुल्क या दायित्व आपकी जिम्मेदारी है किसी भी तीसरे पक्ष द्वारा प्रदान की गई किसी भी सामग्री, सामान और / या सेवाओं के संबंध में एमसीए कोई प्रतिनिधित्व या वारंटी नहीं देता है,  या कोई तृतीय पक्ष सामग्री, सामान और / या सेवाओं से संबंधित किसी भी दावे के लिए  एमसीए उत्तरदायी नहीं होगा भले ही वह हमारे ऐप से जुड़ा हो। लिंक की गई साइटें एमसीए के नियंत्रण में नहीं हैं और आपसे डेटा एकत्र कर सकते हैं या आपकी व्यक्तिगत जानकारी मांग सकते हैं। एमसीए उनकी सामग्री, व्यावसायिक प्रथाओं या गोपनीयता नीतियों के लिए, या उन साइटों को एकत्रित करने, उपयोग या प्रकटीकरण के लिए ज़िम्मेदार नहीं है जो ये साइट एकत्र कर सकते हैं। इसके अलावा, किसी भी लिंक को शामिल करने से इन लिंक किए गए साइटों के एमसीए द्वारा समर्थन नहीं किया जाता है।
+
+अनुप्रयोग में अपडेट
+आप समझते हैं कि ऐप अभी विकसित हो रहा है एमसीए की आवश्यकता हो सकती है कि आप ऐप का  अपडेट स्वीकार करे, आप स्वीकार करते हैं कि एमसीए आपको सूचित किए बिना या बिना सूचना के ऍप अपडेट कर सकता है। एप्लिकेशन को प्राप्त करने के लिए आपको समय-समय पर तीसरे पक्ष के सॉफ़्टवेयर को अपडेट करना पड़ सकता है
+
+एमसीए द्वारा ऐप के उपयोग के निलंबन और समाप्ति
+
+हमारे लिए उपलब्ध किसी भी अन्य उपाय को सीमित किए बिना,  ऍप की सेवाओं की या ऐप के किसी भी वास्तविक या संदिग्ध गैरकानूनी या अनुचित उपयोग के लिए या आप इनमें से किसी भी शर्त का पालन नहीं कर रहे हैं या आप  पर एमसीए को संदेह होगा, तो एमसीए आपको सूचना के बिना या बिना सूचना के लिए ऍप या उसके अंश को सीमित, निलंबित, समाप्त, संशोधित या हटा सकता हैं ,
+
+आप ऐप के आपके उपयोग से जुड़े किसी भी लाभ, विशेषाधिकार और इनाम आइटमों को खो सकते हैं, और एमसीए किसी भी नुकसान या परिणामों के लिए आपको क्षतिपूर्ति करने के लिए कोई दायित्व नहीं रखता है।
+हमारे लिए उपलब्ध किसी भी अन्य उपाय को सीमित किए बिना, हम आवेदन या उसके अंश को सीमित कर सकते हैं, निलंबित कर सकते हैं या समाप्त कर सकते हैं, हमारे अनुप्रयोगों और साइटों तक पहुंच को प्रतिबंधित कर सकते हैं, और उनकी सामग्री, सेवाएं और उपकरण, या होस्ट की गई सामग्री को निकाल या देरी कर सकते हैं, और तकनीकी और उपयोगकर्ताओं को रोकने के लिए कानूनी कदम अगर हम मानते हैं कि वे जोखिम या संभव कानूनी दायित्वों का निर्माण कर रहे हैं, तीसरे पक्ष के बौद्धिक संपदा अधिकारों का उल्लंघन कर रहे हैं, या हमारे शब्दों या नीतियों के पत्र या भावना के साथ असंगत रूप से कार्य कर रहे हैं।
+
+इसके अतिरिक्त, हम उपयुक्त परिस्थितियों में और हमारे संपूर्ण विवेकाधिकार के आधार पर उपयोगकर्ताओं के खातों को निलंबित या समाप्त कर सकते हैं, जो तीसरे पक्ष के बौद्धिक संपदा अधिकारों के दोहराने वाले उल्लंघन हैं।
+
+वारंटियों का अस्वीकरण
+आप स्पष्ट रूप से सहमत हैं कि ऐप का उपयोग आपके एकमात्र जोखिम पर है और किसी भी प्रकार की वारंटी के बिना "जैसा है" आधार पर प्रदान किया जाता है, जिसमे व्यक्त या निहित, शीर्षक, वारंटी या गैर- किसी विशेष उद्देश्य के लिए उल्लंघन, व्यापारिकता या फिटनेस शामिल है | पूर्वगामी को सीमित किए बिना, न तो एमसीए और उसके सहयोगी या सहायक, न ही कोई भी निदेशक, कर्मचारी, एजेंट, वकील, तृतीय पक्ष सामग्री प्रदाता, वितरक, लाइसेंसधारक या लाइसेंसधारक (सामूहिक रूप से, "एमसीए पार्टियां") निर्बाध या त्रुटि-मुक्त अप्प की गारंटी देते है
+
+सीमाएँ; देयता के छूट
+आप स्वीकार करते हैं और सहमति देते हैं कि, किसी भी लागू कानून द्वारा अनुमत पूर्ण सीमा तक, दायित्व के अस्वीकरण में यहां मौजूद किसी भी और सभी क्षति या चोट के कारण, किसी भी कारण से ऐप या उपयोग करने में असमर्थता, या उपयोग करने में असमर्थता पर लागू होता है बिना किसी सीमा के किसी भी क्षेत्राधिकार, कार्यवाही के उल्लंघन के लिए, अनुबंध के उल्लंघन या लापरवाही के उल्लंघन के कार्यों सहित, और जो एमसीए पक्ष किसी भी अप्रत्यक्ष, आकस्मिक, विशेष, अनुकरणीय,  मुनाफे, सद्भावना या डेटा की हानि, किसी भी तरह से उपयोग किए जाने वाले या ऐप का इस्तेमाल करने में असमर्थता या परिणामी क्षति के लिए उत्तरदायी नहीं होंगे
+
+xxxxxxxxxxxxxxxxxxxxxx
+आप और अधिक विशेष रूप से स्वीकार करते हैं कि एमसीए पार्टियां उत्तरदायी नहीं हैं, और आप एमसीए पक्षों को तीसरे पक्ष के संचालन के लिए जिम्मेदार नहीं हैं, सेवाओं के अन्य उपयोगकर्ताओं और बाहरी साइटों के ऑपरेटरों सहित, और यह कि सेवा का जोखिम और बाहरी साइटों और पूर्वगामी से चोट पूरी तरह आपके साथ टिकी हुई है सेवा की इन शर्तों में कुछ भी किसी भी उपभोक्ता के वैधानिक अधिकारों को प्रभावित नहीं करेगा या मृत्यु या किसी भी लापरवाही या धोखाधड़ी से उत्पन्न होने वाली व्यक्तिगत चोट के लिए किसी भी दायित्व को बहिष्कृत या प्रतिबंधित करेगा।
+
+क्षतिपूर्ति
+आप एमसीए, उसकी संबद्ध कंपनियों, ठेकेदारों, कर्मचारियों, एजेंटों और उसके तीसरे पक्ष के आपूर्तिकर्ताओं, लाइसेंसदाताओं और भागीदारों को कानूनी दावों, नुकसान, क्षतिपूर्ति, कानूनी फीस और व्ययों सहित हानि रहित, क्षतिपूर्ति करने, बचाने और पकड़ करने के लिए सहमत हैं। ऐप की आपके उपयोग या दुरुपयोग, सेवा की इन शर्तों के किसी भी उल्लंघन, या आपके द्वारा किए गए अभ्यावेदन, वारंटी और वाचाएं का उल्लंघन। एमसीए आपके खर्चे पर अधिकार सुरक्षित रखता है, जिसके लिए आप एमसीए को क्षतिपूर्ति करने के लिए जरूरी किसी भी मामले का अनन्य रक्षा और नियंत्रण मानते हैं, और आप इन दावों के एमसीए रक्षा के साथ सहयोग करने के लिए सहमत हैं। एमसीए आपको इसके बारे में जागरूक होने पर किसी भी तरह के दावा, कार्रवाई या कार्यवाही के बारे में सूचित करने के लिए उचित प्रयासों का उपयोग करेगा। आप सहमत हैं कि इस पैराग्राफ में दिए गए प्रावधान ऐप के आपके उपयोग के किसी भी समापन से बचेंगे
+
+सेवा की शर्तों में संशोधन
+हम किसी भी समय सेवा के इन नियमों को संशोधित करने और पूर्व नोटिस के बिना हमारे विवेक में अधिकार सुरक्षित रखते हैं। यदि हम इन सेवा की शर्तों को संशोधित करते हैं तो हम हमारे ऐप पर संशोधन पोस्ट करेंगे या अन्यथा आपको संशोधन के बारे में नोटिस देंगे। हम इन सेवा शर्तों के शीर्ष पर दिखाए गए तारीख को भी अपडेट करेंगे। आपके द्वारा एक संशोधन पोस्ट करने के बाद ऐप का उपयोग जारी रखने या ऐप का उपयोग इंगित करता है कि आपके अनुबंध को संशोधित सेवा की शर्तों से बाध्य किया जा सकता है। सेवा के इन शर्तों में कोई भी संशोधन केवल आपके संशोधन के बारे में नोटिस प्रदान करने की तारीख के बाद एप के उपयोग के लिए लागू होगा।
+
+अगर किसी भी समय आप सेवा की इन शर्तों के वर्तमान-वर्तमान संस्करण से सहमत नहीं हैं, तो ऐप की आपके उपयोग से संबंधित किसी अन्य एमसीए पॉलिसी, नियम या आचार संहिता, इन सेवा शर्तों के अनुज्ञप्ति लाइसेंस स्वतः समाप्त हो जाएंगे और आपको तुरंत ऐप का उपयोग करना बंद करना होगा सेवा की शर्तों को किसी अन्य एमसीए शर्तों, नीति, नियम या आचार संहिता के साथ संघर्ष की सीमा तक, सेवा की शर्तों में निहित शर्तों को ऐप के संबंध में नियंत्रित किया जाएगा।
+
+कानूनी विवाद के लिए कानून और फोरम
+
+इस समझौते से या एमसीए के साथ अपने संबंध से संबंधित या उससे संबंधित सभी दावों को भारत के कानूनों द्वारा नियंत्रित किया जाएगा। आप मुंबई, महाराष्ट्र में अदालतों के विशेष अधिकार क्षेत्र को स्वीकार करते हैं।
+विच्छेदनीयता
+आप और एमसीए सहमत हैं कि यदि इन शर्तों के नियमों का कोई भी हिस्सा, किसी भी न्यायालय द्वारा किसी भी न्यायालय द्वारा संपूर्ण या आंशिक रूप से गैरकानूनी या अपरिवर्तनीय पाया जाता है, तो ऐसे प्रावधान ऐसे न्यायक्षेत्र के रूप में, ऐसे दृढ़ संकल्प की सीमा तक पूरी तरह अप्रभावी नहीं होंगे किसी भी अन्य तरीके या अधिकार क्षेत्र में वैधता या कार्यान्वयन को प्रभावित किए बिना अयोग्यता या निष्पादन योग्यता की और सेवा की इन शर्तों के शेष प्रावधानों को प्रभावित किए बिना, जो पूर्ण बल और प्रभाव में जारी रहेगा।
+असाइनमेंट
+एमसीए आपकी सहमति के साथ या बिना किसी भी समय किसी भी व्यक्ति या संस्था को सेवा के इन शर्तों को पूरे या आंशिक रूप में निर्दिष्ट या सौंप सकता है। एमसीए की पूर्व लिखित सहमति के बिना आप सेवा की शर्तों के तहत किसी भी अधिकार या दायित्वों को असाइन या प्रतिनिधि नहीं कर सकते हैं, और आपके द्वारा किसी भी अनधिकृत असाइनमेंट और प्रतिनिधिमंडल अमान्य और अप्रभावी हैं।
+पूरे समझौते
+सेवा की ये शर्तें, किसी भी पूरक नीतियों और संदर्भ में स्पष्ट रूप से शामिल किए गए किसी भी दस्तावेज में आप और एमसीए की संपूर्ण समझ होती है, और इस विषय से संबंधित पार्टियों के पहले समझा जा सकता है, चाहे वह चाहे इलेक्ट्रॉनिक, मौखिक या लिखित हो, या चाहे ऐप के संबंध में आपके और हमारे बीच कस्टम, अभ्यास, नीति या मिसाल के द्वारा स्थापित
+कोई त्याग नहीं
+एमसीए की सेवा की इन शर्तों के किसी भी प्रावधान की सख्त कार्यप्रणाली की आवश्यकता है या उन्हें लागू करने की विफलता, या उनके तहत किसी भी अधिकार का प्रयोग करने में विफलता को माफी के रूप में नहीं माना जाएगा या
+किसी भी ऐसे प्रावधान या उस या किसी अन्य उदाहरण में सही पर जोर देने या उस पर भरोसा करने के लिए एमसीए का त्याग
+किसी भी प्रावधान, शर्त या सेवा की शर्तों की आवश्यकता के एमसीए द्वारा व्यक्त छूट, ऐसे प्रावधान, शर्त या आवश्यकता का अनुपालन करने के लिए किसी भी भविष्य की दायित्व के छूट का गठन नहीं करेगा।
+साम्य उपचार
+
+आप अपरिवर्तनीय या अन्य न्यायसंगत राहत प्राप्त करने के सभी अधिकारों को त्यागते हैं, या ऐप के संचालन को रोकना या रोकना, किसी भी विज्ञापन या उसके साथ संबंध में जारी किए गए अन्य सामग्रियों के शोषण या ऐप के किसी भी सामग्री या अन्य सामग्री के उपयोग या प्रदर्शित ऐप के माध्यम से और मौद्रिक क्षति के दावों पर अपने दावों को सीमित करने के लिए सहमत हूं, जैसा कि यहां सीमित है।
+अप्रत्याशित घटना
+
+एमसीए किसी भी देरी या एमसीए के उचित नियंत्रण से बाहर के कारणों से निष्पादित करने में विफलता के लिए उत्तरदायी नहीं होगा, इसमें बिना किसी अप्रत्याशित परिस्थितियों के तहत यहां प्रदर्शन करने में विफलता या एमसीए के नियंत्रण जैसे कि भगवान, युद्ध, आतंकवाद, दंगे , प्रतिबंध, नागरिक या सैन्य अधिकारियों, आग, बाढ़, दुर्घटनाओं, नेटवर्क बुनियादी ढांचे की विफलताओं, हमले या परिवहन सुविधाओं, ईंधन, ऊर्जा, श्रम या सामग्रियों की कमी के कार्य।
+हमसे संपर्क करना
+यदि सेवा की इन शर्तों के बारे में आपके कोई प्रश्न हैं, तो कृपया हमसे एमसीए मुख्यालय पर संपर्क करें या हमें कॉल करें
+"</string>
+
+    <string name="hi_license_content">"
+लाइसेंस
+जागो ग्राहक जागो  मोबाइल ऐप  ZXing समूह द्वारा विकसित ओपन सोर्स लाइब्रेरी का उपयोग करता है और Apache लाइसेंस 2.0 के तहत जारी किया गया है, जो कि qr / बारकोड की मान्यता और डीकोडिंग के लिए है।
+
+संपर्क:
+ZXing डेवलपमेंट टीम के महान काम के लिए लिंक
+http://code.google.com/p/zxing
+
+Apache 2.0 लाइसेंस के लिए लिंक जो zxing की ओपन सोर्स लाइब्रेरी से संबंधित है
+http://www.apache.org/licenses/LICENSE-2.0"
+</string>
+    <string name="sending_report">Sending...</string>
+    <string name="report_success">Report successfully submited</string>
+    <string name="please_enter_feedback_for_report">Please enter your comment</string>
+    <string name="barcode_view_message">Place a bar/ QR code inside the viewfinder rectangle to scan it</string>
+
+    <!--SIGNIN & SIGNUP SCREEN-->
+    <string name="name">Name</string>
+    <string name="email">Email</string>
+    <string name="mobile_number">Mobile Number</string>
+    <string name="sign_up_button_text">SIGN UP</string>
+    <string name="sign_in_button_text">SIGN IN</string>
+    <string name="sign_in_bottom_text">Sign In if you are an existing user.</string>
+    <string name="sign_up_bottom_text">Sign UP if you are a new user.</string>
+    <string name="choose_language_text">Choose Language</string>
+    <string name="enter_verification_key_for_login">Enter Verification key for Login</string>
+    <string name="verifying">Verifying</string>
+    <string name="verification_request_message_for_login">A Verification-Key is sent to Your Mobile Number and Email. Please provide this Verification-Key for successfull Sign In.</string>
+    <string name="verification_request_message_for_login_error">"We don't have your details in our system, Please Contact to Surya Admin."</string>
+    <string name="mobile_number_already_exists">"Your Mobile Number already registered in system. Please sign In."</string>
+    <string name="turn_on_flashlight">Turn on flash</string>
+    <string name="turn_off_flashlight">Turn off flash</string>
+
+    <string-array name="country_arrays" color="#FFFFFF">
+        <item>	India	</item>
+        <!--<item>  US</item>-->
+    </string-array>
+
+    <string-array name="language_arrays" color="#FFFFFF">
+        <item>	English	</item>
+        <item>  हिंदी   </item>
+    </string-array>
+</resources>

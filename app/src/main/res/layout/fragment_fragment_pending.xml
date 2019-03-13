@@ -1,0 +1,27 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/app_background"
+    tools:context="com.surya.onspot.qrscanFragments.FragmentCompleted">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:id="@+id/textView_no_data_found_pending"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:text="No data found"
+        android:textColor="@color/black"
+        android:visibility="gone" />
+
+    <android.support.v7.widget.RecyclerView
+        android:padding="5dp"
+        android:layout_marginTop="5dp"
+        app:layoutManager="android.support.v7.widget.LinearLayoutManager"
+        android:id="@+id/listView_pending"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+</RelativeLayout>

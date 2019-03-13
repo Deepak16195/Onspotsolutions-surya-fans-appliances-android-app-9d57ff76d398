@@ -1,0 +1,21 @@
+{[
+{
+    "responseMessage": "Hi , welcome  to Surya",
+    "success": true,
+    "auth_token": "nplbrpvb",
+    "name": "smruti",
+    "email": "smruti@gmail.com",
+    "mobile_number": "8237174396",
+    "user_type": "Retailer"
+},
+{
+    "responseMessage": "Hi , welcome  to Surya",
+    "success": true,
+    "auth_token": "nplbrpvb",
+    "name": "smruti",
+    "email": "smruti@gmail.com",
+    "mobile_number": "7841956972",
+    "user_type": "Distributor"
+}
+]
+}

@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="CustomTextView" parent="android:Widget.Holo.Light.TextView">
+        <item name="fontPath">fonts/SourceSansPro.ttf</item>
+    </style>
+
+    <style name="AppBaseTheme" parent="Base.Theme.AppCompat" />
+
+    <style name="SwitchTextAppearance" parent="@android:style/TextAppearance.Holo.Small">
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:textViewStyle">@style/CustomTextView</item>
+    </style>
+
+    <style name="ListFont" parent="@android:style/Widget.ListView">
+        <item name="android:textColor">#FF0000</item>
+        <item name="android:typeface">sans</item>
+    </style>
+    <!-- -->
+    <style name="MyEditTextTheme">
+        <!-- Used for the bottom line when not selected / focused -->
+        <item name="colorControlNormal">@color/black</item>
+        <item name="android:textViewStyle">@style/CustomTextView</item>
+        <item name="android:textColorHint">@color/black</item>
+        <item name="colorControlActivated">@color/black</item>
+        <item name="colorControlHighlight">@color/black</item>
+    </style>
+
+    <style name="LogitechWidgetTheme" parent="Theme.AppCompat.Light.Dialog">
+        <item name="windowActionBar">false</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:spinnerDropDownItemStyle">@style/CustomSpinnerDark</item>
+        <item name="colorAccent">@color/log_colorPrimary</item>
+        <item name="android:textViewStyle">@style/CustomTextView</item>
+    </style>
+
+    <!-- Application theme. -->
+    <style name="LogitechTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/log_colorPrimary</item>
+        <item name="colorPrimaryDark">@color/log_colorPrimaryDark</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:spinnerDropDownItemStyle">@style/CustomSpinnerDark2</item>
+        <item name="drawerArrowStyle">@style/DrawerArrowStyle</item>
+        <item name="android:spinnerItemStyle">@style/CustomSpinnerDark</item>
+        <item name="colorAccent">@color/log_colorPrimary</item>
+        <item name="colorControlHighlight">@color/log_colorPrimary</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowActionModeOverlay">true</item>
+        <item name="android:textViewStyle">@style/CustomTextView</item>
+    </style>
+
+    <style name="LogitechTheme1" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+        <item name="android:textViewStyle">@style/CustomTextView</item>
+        <item name="colorControlNormal">@color/log_colorPrimary</item>
+        <item name="android:textColorHint">@color/log_colorPrimary</item>
+        <item name="android:spinnerDropDownItemStyle">@style/CustomSpinnerDark2</item>
+        <item name="android:spinnerItemStyle">@style/CustomSpinnerDark2</item>
+        <item name="colorControlActivated">@color/log_colorPrimaryDark</item>
+        <item name="colorControlHighlight">@color/log_colorPrimaryDarker</item>
+        <item name="colorPrimary">@color/log_colorPrimary</item>
+        <item name="colorPrimaryDark">@color/log_colorPrimaryDark</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowActionModeOverlay">true</item>
+    </style>
+
+    <style name="DrawerArrowStyle" parent="Widget.AppCompat.DrawerArrowToggle">
+        <item name="spinBars">true</item>
+        <item name="color">@android:color/white</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="CustomSpinnerDark1" parent="android:Widget.Holo.Light.Spinner">
+        <item name="android:background">@drawable/custom_spinner_dark</item>
+        <item name="color">@color/white</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="CustomSpinnerDarker" parent="android:Widget.Holo.Light.Spinner">
+        <item name="android:background">@drawable/custom_spinner_darker</item>
+        <item name="color">@color/white</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="CustomSpinnerDark" parent="android:Widget.Holo.Light.DropDownItem.Spinner">
+        <item name="color">@color/white</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="CustomSpinnerDark2" parent="android:Widget.Holo.Light.TextView.SpinnerItem">
+        <item name="android:color">@color/white</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <style name="CustomSpinner" parent="android:Widget.Holo.Light.TextView.SpinnerItem">
+        <item name="android:color">@color/white</item>
+        <item name="android:background">@drawable/background_spinner1</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <style name="home_screen_button_style">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:background">@drawable/rounded_surya_background_image</item>
+        <item name="android:layout_marginTop">15dp</item>
+        <item name="android:padding">12dp</item>
+        <item name="android:textSize">@dimen/text_size_large</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="home_screen_button_style1">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:background">@drawable/rounded_surya_background_image</item>
+        <item name="android:layout_marginTop">15dp</item>
+        <item name="android:padding">12dp</item>
+        <item name="android:textSize">@dimen/text_size_large</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+</resources>

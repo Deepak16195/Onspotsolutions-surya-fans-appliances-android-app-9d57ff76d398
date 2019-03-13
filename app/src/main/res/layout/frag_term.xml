@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/app_background"
+    android:orientation="vertical">
+
+    <WebView
+        android:id="@+id/webview_compontent"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:visibility="gone" />
+
+    <WebView
+        android:id="@+id/webView_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/app_background"></WebView>
+
+
+    <ScrollView
+        android:id="@+id/scrollView_terms_and_services"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone">
+
+        <TextView
+            android:id="@+id/textView_terms_and_services"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/hi_terms_and_services" />
+
+    </ScrollView>
+</RelativeLayout>

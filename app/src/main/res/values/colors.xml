@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="white">#fff</color>
+    <color name="red">#F44336</color>
+    <color name="home_screen_button_background">#80F44336</color>
+    <color name="black">#000</color>
+    <color name="light_black">#464646</color>
+    <color name="Transparent">@android:color/transparent</color>
+    <color name="TransparentWhite">#00FFFFFF</color>
+    <color name="Transparent80">#80000000</color>
+    <color name="card_background_transparent">#80FFFFFF</color>
+    <color name="darkgrey">#F44336</color>
+    <color name="log_colorPrimary">#F44336</color>
+    <color name="log_colorPrimaryDark">#F44336</color>
+    <color name="log_colorPrimaryDarker">#F44336</color>
+    <color name="splash_background">#FFFFFF</color>
+    <color name="grey">#a6a4a4</color>
+    <color name="app_background">#ffffff</color>
+    <color name="color_list_cell_light_grey">#e9e6e6</color>
+    <color name="background_tab_pressed">#6633B5E5</color>
+
+</resources>

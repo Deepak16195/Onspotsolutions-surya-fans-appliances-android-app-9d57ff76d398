@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.surya.onspot.qrscanFragments.CustomScannerActivity">
+
+    <com.journeyapps.barcodescanner.DecoratedBarcodeView
+        android:id="@+id/zxing_barcode_scanner"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:zxing_scanner_layout="@layout/custom_barcode_scanner"
+        tools:layout_editor_absoluteX="23dp"
+        tools:layout_editor_absoluteY="638dp"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@color/Transparent"
+        android:gravity="center">
+
+        <ImageButton
+            android:id="@+id/switch_flashlight"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_centerVertical="true"
+            android:background="@color/Transparent"
+            android:onClick="switchFlashlight"
+            android:src="@drawable/ic_flash_off"
+            android:tint="@color/log_colorPrimary"/>
+
+        <Button
+            android:id="@+id/button_stop_scanning"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_toRightOf="@+id/switch_flashlight"
+            android:background="@drawable/rounded_surya_background_image"
+            android:onClick="stopScanning"
+            android:padding="10dp"
+            android:text="Stop scanning"
+            android:textColor="@color/white"
+            tools:layout_editor_absoluteX="8dp"
+            tools:layout_editor_absoluteY="0dp"/>
+
+    </RelativeLayout>
+
+</RelativeLayout>

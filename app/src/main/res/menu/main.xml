@@ -1,0 +1,35 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.surya.onspot.com.loyalty.onspot.MainActivity">
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:title="@string/action_settings"
+        android:visible="false"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_exit"
+        android:orderInCategory="100"
+        android:title="@string/action_exit"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_scanhistory"
+        android:icon="@drawable/history_white"
+        android:orderInCategory="200"
+        android:title="My Scans"
+        android:visible="false"
+        app:showAsAction="always"></item>
+    <item
+        android:id="@+id/action_share"
+        android:icon="@drawable/share_white"
+        android:menuCategory="secondary"
+        android:orderInCategory="300"
+        android:title="Share"
+        android:visible="false"
+        app:showAsAction="always">
+
+    </item>
+
+</menu>
+ 

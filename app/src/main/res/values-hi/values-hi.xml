@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="Term">सेवा की शर्तें</string>
+
+    <!--LOGIN SCREEN-->
+    <string name="sign_up_activity_sign_in">साइन इन करें</string>
+    <string name="action_exit">बाहर जाएं</string>
+    <string name="action_settings">सेटिंग्स</string>
+    <string name="Licenses">लाइसेंस</string>
+    <string name="loadertext">अपने स्कैन को सत्यापित करना</string>
+
+    <!--HOME SCREEN-->
+    <string name="scan_barcode">क्यू आर कोड स्कैन करें</string>
+    <string name="torch_is_on">टोर्च चालू है</string>
+    <string name="torch_is_off">टोर्च बंद है</string>
+    <string name="history">इतिहास</string>
+    <string name="rewards">रिवार्ड्स ( पुरस्कार )</string>
+
+    <!--DRAWER LAYOUT-->
+    <string name="drawer_header_text">उपभोक्ता मामलों के मंत्रालय</string>
+    <string name="drawer_header_text_gov">भारत सरकार</string>
+    <string name="drawer_home">होम</string>
+    <string name="drawer_about_us">हमारे बारे में</string>
+    <string name="drawer_app_basics">मूल बातें</string>
+    <string name="drawer_faq">पूछे जाने वाले प्रश्न</string>
+    <string name="drawer_feedback">प्रतिक्रिया</string>
+    <string name="drawer_rewards">रिवार्ड्स   ( पुरस्कार )</string>
+    <string name="drawer_license">लाइसेंस</string>
+    <string name="drawer_stock_report">स्टॉक रिपोर्ट</string>
+    <string name="drawer_scan_history">इतिहास</string>
+    <string name="drawer_my_profile">मेरी प्रोफाइल</string>
+    <string name="drawer_terms_of_services">सेवा की शर्तें</string>
+
+    <!--ABOUT US-->
+    <string name="about_us_title">हमारे बारे में</string>
+    <string name="about_us">ऑनस्पॉट ब्रांड और उपभोक्ता के बीच अंतर को जालसाजी से बचाता है।
+ऑनस्पोट के एमवीपी (मोबाइल सत्यापन प्लेटफ़ॉर्म), मांग पर, वास्तविक समय में उत्पाद की उपयोगी जानकारी प्रदान करता है।
+यह उपभोक्ताओं को उन उत्पादों की अखंडता को सत्यापित करने में भी मदद करता है जो वे खरीदते हैं।
+</string>
+
+    <!--APP BASICS-->
+    <string name="app_basics_title">मूल बातें</string>
+    <string name="app_basics">"
+स्कैन QR कोड:
+प्रोडक्ट की  पूर्ण जानकारी  प्राप्त करने के लिए QR कोड स्कैन करें |\n
+इतिहास:
+आपके , पिछले सत्यापन स्कैन और ऐप उपयोग के बारे में विवरण देखें |\n
+हमारे बारे में:
+जागो ग्राहक जागो, उपभोक्ता मामले, सरकार के बारे में संक्षिप्त विवरण भारत और ऑनस्पॉट सॉल्यूशंस प्राइवेट लिमिटेड\n
+सेटिंग्स:
+आपकी व्यक्तिगत जानकारी जैसे नाम, ईमेल बदलें।\n
+पूछे जाने वाले प्रश्न:
+क्या कोई सवाल है? अक्सर पूछे जाने वाले प्रश्न अनुभाग देखें।\n"
+</string>
+
+    <!--FAQ-->
+    <string name="faq_title">पूछे जाने वाले प्रश्न</string>
+    <string name="faq">"
+पूछे जाने वाले प्रश्न\n
+\n1. जागो ग्राहक जागो ऐप का उपयोग करने के लिए मेरे व्यक्तिगत विवरण की आवश्यकता क्यों है?
+ए)  रजिस्ट्रेशन के प्रयोजन के लिए आपके व्यक्तिगत विवरण की आवश्यकता है आपकी जानकारी कड़ाई से गोपनीय है और किसी के साथ साझा नहीं की गई है।
+बी) आपका मोबाइल नंबर एक सत्यापन कोड भेजने के लिए उपयोग किया जाता है जो ऐप के उपयोग के लिए आपकी पंजीकरण पूर्ण करता है यदि आपने अपने सिम पर परेशान न करें सक्रिय किया है, तो आपका ईमेल सत्यापन कोड भेजने के लिए उपयोग किया जाएगा।
+सी) मिनिस्ट्री ऑफ़ कंस्यूमर अफेयर्स  और खुद के बीच महत्वपूर्ण संदेशों को संप्रेषित करने के लिए ईमेल का उपयोग किया जाता है।
+\n2. इनवैलिड प्रतिक्रिया का मतलब क्या होता है?
+उत्तर: इनवैलिड  प्रतिक्रिया का मतलब है कि आपके द्वारा खरीदा गया उत्पाद हमारे डेटाबेस में प्रमाणीकृत नहीं किया जा सकता है।
+\n3. क्या होगा अगर मैं अपना मोबाइल डिवाइस बदलूं?
+उत्तर: जब आप अपना डिवाइस बदलते हैं, तो कृपया यह सुनिश्चित कर लें कि आपने अपने वैकल्पिक ईमेल आईडी पर भावी संदर्भों के लिए अपने सभी संबंधित खरीदारियों से संबंधित प्रतिक्रियाएं भेजी हैं। यदि आपका सिम अभी भी समान है, तो आपको ऐप को डाउनलोड और इंस्टॉल करना होगा, लॉगिन प्रक्रियाओं का पालन करना होगा और आप फिर से ऐप का उपयोग करने में सक्षम होंगे।
+\n4. क्या होगा अगर मैं अपना सिम फोन नंबर बदलूँ?
+उत्तर: ऐप का उपयोग जारी रखने के लिए, आपको अनुरोध है कि आप अपना नया फोन नंबर हमारे साथ पंजीकृत करें। यदि आपका मोबाइल डिवाइस अभी भी वही है, तो आप सेटिंग पर जा सकते हैं और नए रिकॉर्ड के साथ अपने रिकॉर्ड को अपडेट कर सकते हैं। आपको एक सक्रियण कोड प्राप्त होगा और पहले की तरह ऐप का उपयोग करने में सक्षम होंगे।
+\n5. मैं अपनी पसंदीदा भाषा कैसे बदलूं?
+उत्तर: जागो ग्राहक जागो ऐप अंग्रेजी और हिंदी दोनों में उपलब्ध है। ऐप का उपयोग करते समय, किसी भी समय, आप उपयोगकर्ता सेटिंग्स पर जा सकते हैं और भाषा बदल सकते हैं |  जागो ग्राहक जागो ऐप की सभी सामग्री आपकी पसंदीदा भाषा में प्रदर्शित की जाएगी। यह इंटरैक्टिव तत्वों पर भी लागू होगा जैसे बटन, अलर्ट आदि।
+"</string>
+
+    <!--FEEDBACK SCREEN-->
+    <string name="feedback_title">प्रतिक्रिया</string>
+    <string name="enter_your_feedback">अपना फ़ीडबैक दर्ज करें</string>
+    <string name="submit_feedback">सबमिट  ( जमा करें )</string>
+    <string-array name="feddback_array" color="#000000">
+        <item>जागो ग्राहक जागो के लिए प्रतिक्रिया</item>
+    </string-array>
+
+    <!--REWARD SCREEN-->
+    <string name="reward_title">रिवार्ड्स   ( पुरस्कार )</string>
+    <string name="rewards_content_message">आपने जागो ग्राहक जागो मोबाइल ऐप का उपयोग करके अब तक 100 अंक कमाए हैं</string>
+
+    <!--SCAN HISTORY-->
+    <string name="scan_history_title">इतिहास</string>
+    <string-array name="settings">
+        <item>वैध  ( मान्य )</item>
+        <item>अमान्य</item>
+    </string-array>
+
+    <!--MY PROFILE-->
+    <string name="received_history_page_title">मेरी प्रोफाइल</string>
+    <string-array name="profile">
+        <item>नाम</item>
+        <item>ईमेल</item>
+        <item>फ़ोन</item>
+        <!--<item>भाषा</item>-->
+    </string-array>
+
+    <!--CHANGE NAME SCREEN-->
+    <string name="hint_current_name">वर्तमान नाम</string>
+    <string name="hint_new_name">नया नाम</string>
+    <string name="submit_profile">सबमिट  ( जमा करें )</string>
+    <string name="update_your_name">अपना नाम अपडेट करें</string>
+    <string name="both_names_can_not_same">दोनों नाम समान नहीं हो सकते</string>
+    <string name="api_name_update_successfully">आपका नाम सफलतापूर्वक सबमिट की गई</string>
+    <string name="api_old_name_is_wrong">कृपया अपना वर्तमान नाम जांचें</string>
+
+    <!--EDIT EMAIL SCREEN-->
+    <string name="hint_current_email">वर्तमान ईमेल</string>
+    <string name="hint_new_email">नई ईमेल</string>
+    <string name="update_your_email_address">अपना ईमेल पता अपडेट करें</string>
+    <string name="both_emails_cannot_be_same">दोनों ईमेल समान नहीं हो सकते</string>
+    <string name="verification_request_message">एक सत्यापन कुंजी अनुरोधित ईमेलआइडी को भेज दी गई है। कृपया अपने ईमेल आईडी के सफल अद्यतन के लिए यह सत्यापन कुंजी दर्ज करें।</string>
+    <string name="incorrect_current_email_address">गलत वर्तमान ईमेल पता</string>
+
+    <!--VERIFY EMAIL OTP SCREEN-->
+    <string name="submit_verify_otp">जमा करें</string>
+    <string name="enter_verification_key_for_change_email">ईमेल बदलने के लिए सत्यापन कुंजी दर्ज करें</string>
+    <string name="enter_verification_key">सत्यापन कुंजी दर्ज करें</string>
+    <string name="email_address_updated_successfully">ईमेल पता सफलतापूर्वक अपडेट किया गया</string>
+    <string name="invalid_verification_key">आपके द्वारा दर्ज सत्यापन कुंजी मान्य नहीं है</string>
+
+    <!--EDIT MOBILE NUMBER SCREEN-->
+    <string name="hint_current_mobile_number">वर्तमान मोबाइल नंबर</string>
+    <string name="hint_new_mobile_number">नया मोबाइल नंबर</string>
+    <string name="update_your_mobile_number">अपना फ़ोन नंबर अपडेट करें</string>
+    <string name="both_number_cannot_be_same">दोनों नंबर एक समान नहीं हो सकते</string>
+    <string name="incorrect_current_mobile_number">गलत वर्तमान मोबाइल नंबर</string>
+    <string name="verification_request_message_for_mobile_number">एक सत्यापन कुंजी अनुरोधित मोबाइल नंबर पर भेज दी गई है। कृपया आपके अनुरोधित मोबाइल नंबर के सफलतापूर्वक अपडेट करने के लिए यह सत्यापन कुंजी दर्ज करें।</string>
+    <string name="enter_verification_key_for_change_mobile_number">मोबाइल नंबर बदलने के लिए सत्यापन कुंजी दर्ज करें</string>
+    <string name="mobile_number_updated_successfully">मोबाइल नंबर सफलतापूर्वक अपडेट किया गया</string>
+    <string name="please_enter_otp">कृपया ओटीपी दर्ज करें</string>
+
+
+    <!--APP RELATED-->
+    <string name="no_internet_connection">कोई इंटरनेट कनेक्शन नहीं।</string>
+    <string name="request_time_out">हम सर्वर से कनेक्ट नहीं हो सके</string>
+    <string name="crash_error">ऊप्स! सर्वर पर कुछ गलत हो गया</string>
+    <string name="action_text_ok">ठीक</string>
+    <string name="action_text_cancel">रद्द करें</string>
+    <string name="api_loading_dialog_message_requesting">रिक्वेस्टिंग...</string>
+    <string name="api_loading_dialog_message_authenticating">प्रमाणित कर रहा है...</string>
+    <string name="location_setting_not_on">लोकेशन  सेटिंग चालू नहीं है</string>
+    <string name="qr_code">क्यूआर कोड</string>
+    <string name="scan_status">स्कैन स्थिति</string>
+    <string name="scan_response">प्रतिक्रिया</string>
+    <string name="scan_date">स्कैन तिथि</string>
+    <string name="brand_name">ब्रांड का नाम</string>
+    <string name="scan_invalid">अमान्य</string>
+    <string name="scan_valid">वैध</string>
+    <string name="feedback_successfully_submitted">प्रतिक्रिया सफलतापूर्वक सबमिट की गई</string>
+    <string name="no_data_available">कोई डेटा उपलब्ध नहीं है</string>
+    <string name="onpost_title">होम</string>
+
+    <string name="sending_report">भेजना...</string>
+    <string name="report_success">रिपोर्ट सफलतापूर्वक सबमिट की गई</string>
+    <string name="please_enter_feedback_for_report">कृपया अपनी टिप्पणी दर्ज करें</string>
+    <string name="barcode_view_message">स्कैन करने के लिए एक बारकोड/क्यूआर कोड विवफाइंडर आयत के अंदर रखें</string>
+
+
+    <!--SIGNIN & SIGNUP SCREEN-->
+    <string name="name">नाम</string>
+    <string name="email">ईमेल</string>
+    <string name="mobile_number">मोबाइल नंबर</string>
+    <string name="sign_up_button_text">साइन अप करें</string>
+    <string name="sign_in_button_text">साइन इन करें</string>
+    <string name="sign_in_bottom_text">साइन इन करें। यदि आप एक मौजूदा उपयोगकर्ता हैं</string>
+    <string name="sign_up_bottom_text">साइन अप करें। यदि आप एक नया उपयोगकर्ता हैं</string>
+    <string name="choose_language_text">भाषा चुनें</string>
+    <string name="enter_verification_key_for_login">लॉगइन के लिए सत्यापन कुंजी दर्ज करें</string>
+    <string name="verifying">सत्यापित किया जा रहा</string>
+    <string name="verification_request_message_for_login">एक सत्यापन कुंजी आपके मोबाइल नंबर और ईमेल पर भेजी जाती है सफल साइन इन में कृपया यह सत्यापन कुंजी प्रदान करें</string>
+    <string name="verification_request_message_for_login_error">"हमारे सिस्टम में आपका विवरण नहीं है कृपया साइन अप करो।"</string>
+    <string name="mobile_number_already_exists">"आपका मोबाइल नंबर सिस्टम में पहले से पंजीकृत है कृपया साइन इन करें।"</string>
+
+    <string-array name="country_arrays" color="#FFFFFF">
+        <item>	भारत	</item>
+        <!--<item>  अमेरिका</item>-->
+    </string-array>
+
+    <string-array name="language_arrays" color="#FFFFFF">
+        <item>	English	</item>
+        <item>  हिंदी   </item>
+    </string-array>
+
+</resources>

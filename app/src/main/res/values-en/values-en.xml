@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="Term">Term Of Service</string>
+
+    <!--LOGIN SCREEN-->
+    <string name="sign_up_activity_sign_in">SIGN IN</string>
+    <string name="action_exit">Exit</string>
+    <string name="action_settings">Settings</string>
+    <string name="Licenses">Licenses</string>
+    <string name="loadertext">Verifying your scan</string>
+
+    <!--HOME SCREEN-->
+    <string name="scan_barcode">Tap Here to Scan QR Code</string>
+    <string name="torch_is_on">Torch is on</string>
+    <string name="torch_is_off">Torch is Off</string>
+    <string name="history">History</string>
+    <string name="rewards">Rewards</string>
+
+    <!--DRAWER LAYOUT-->
+    <string name="drawer_header_text">Ministry of Consumer Affairs</string>
+    <string name="drawer_home">HOME</string>
+    <string name="drawer_about_us">ABOUT US</string>
+    <string name="drawer_app_basics">APP BASICS</string>
+    <string name="drawer_faq">FAQ</string>
+    <string name="drawer_feedback">FEEDBACK</string>
+    <string name="drawer_rewards">REWARDS</string>
+    <string name="drawer_license">LICENSES</string>
+    <string name="drawer_scan_history">SCAN HISTORY</string>
+    <string name="drawer_stock_report">STOCK REPORT</string>
+    <string name="drawer_my_profile">MY PROFILE</string>
+    <string name="drawer_terms_of_services">TERMS OF SERVICES</string>
+
+    <!--ABOUT US-->
+    <string name="about_us_title">About Us</string>
+    <string name="about_us"><![CDATA[Onspot bridges the gap between product & consumer to protect against counterfeiting.   Onspot\'s MVP (Mobile Verification Platform) gives helpful, on-demand, real time product information.   It also helps consumers to verify the integrity of the products they purchase.]]></string>
+
+    <!--APP BASICS-->
+    <string name="app_basics_title">App Basics</string>
+    <string name="app_basics">
+"Scan QR Code :
+Scan QR Codes to obtain full product information\n
+History : View details about your app usage, past verification and scans.\n
+About Us : A Brief note about the OnSpot, Consumer Affairs, Govt. of India and Onspot Solutions Pvt Ltd.\n
+Settings  : Change your personal information such as Name, Email\n
+FAQ : Have a question?. Check out the Frequently Asked Questions section.\n"
+</string>
+
+    <!--FAQ-->
+    <string name="faq_title">FAQ</string>
+    <string name="faq">"
+1. Why are my personal details required to use OnSpot App?
+-> a. Your personal details are required for registration purpose.
+Your detail is strictly confidential and not shared with anybody.
+b. Your mobile number is used to send back an authentication code which completes your registration towards usage of the app.
+In case you have activated Do Not Disturb on your SIM, your email will be used to send back the authentication code.
+c. Your email is also used for communicating important messages between MINISTRY OF CONSUMER AFFAIRS and yourself.
+
+2. What does an INVALID response mean?
+-> INVALID response means that the product you have purchased could not be validated against the database.
+
+3. What if I change my Mobile Device?
+-> When you change your device, please ensure that you have forwarded all your purchases related responses to your alternative email id for future reference. If your SIM is still the same, you would be required to download and install the App, follow the registration procedures and you would be able to use the App again.
+
+4. What if I change my SIM Phone Number?
+-> To continue using the App, you are requested to register your new phone number with us. If your mobile device is still the same, you can go to Settings and update your records with the new phone number. You will receive an activation code and will be able to use the App like before.
+
+5. How do I change my preferred language?
+-> The Jaago Grahak Jaago App is available, both in English and Hindi. While using the App., at any point of time, you , the user can go to Settings and change the language.. All contents in the Jaago Grahak Jaago App will be displayed in your preferred language. This will be applicable on the interactive elements too such as buttons, alert's etc."</string>
+
+    <!--FEEDBACK SCREEN-->
+    <string name="feedback_title">Feedback</string>
+    <string name="enter_your_feedback">Enter your feedback</string>
+    <string name="submit_feedback">SUBMIT</string>
+    <string-array name="feddback_array" color="#000000">
+        <item>Feedback for OnSpot</item>
+    </string-array>
+
+    <!--REWARD SCREEN-->
+    <string name="reward_title">REWARDS</string>
+    <string name="rewards_content_message">You have earned 100 points so far by using OnSpot Mobile app</string>
+
+    <!--SCAN HISTORY-->
+    <string name="scan_history_title">HISTORY</string>
+    <string-array name="settings">
+        <item>Valid</item>
+        <item>Invalid</item>
+    </string-array>
+
+    <!--MY PROFILE-->
+    <string name="received_history_page_title">MY PROFILE</string>
+    <string-array name="profile">
+        <item>Name</item>
+        <item>Email</item>
+        <item>Phone</item>
+        <!--<item>Language</item>-->
+    </string-array>
+
+    <!--CHANGE NAME SCREEN-->
+    <string name="hint_current_name">Current Name</string>
+    <string name="hint_new_name">New Name</string>
+    <string name="submit_profile">SUBMIT</string>
+    <string name="update_your_name">Update your name</string>
+    <string name="both_names_can_not_same">Both names cannot be same</string>
+    <string name="api_name_update_successfully">Your name is updated successfully</string>
+    <string name="api_old_name_is_wrong">Please check your current name</string>
+
+    <!--EDIT EMAIL SCREEN-->
+    <string name="hint_current_email">Current Email</string>
+    <string name="hint_new_email">New Email</string>
+    <string name="update_your_email_address">Update Your Email Address</string>
+    <string name="both_emails_cannot_be_same">Both emails cannot be same</string>
+    <string name="verification_request_message">A Verification-Key has been sent to the requested EmailId. Please enter this verification-Key for successfull update of your EmailId.</string>
+    <string name="incorrect_current_email_address">Incorrect current email address</string>
+
+    <!--VERIFY EMAIL OTP SCREEN-->
+    <string name="submit_verify_otp">SUBMIT</string>
+    <string name="enter_verification_key_for_change_email">Enter verification key for changing email.</string>
+    <string name="enter_verification_key">Enter Verification Key</string>
+    <string name="email_address_updated_successfully">Email address updated successfully.</string>
+    <string name="invalid_verification_key">Verification-Key entered by you is not valid</string>
+
+    <!--EDIT MOBILE NUMBER-->
+    <string name="hint_current_mobile_number">Current Mobile Number</string>
+    <string name="hint_new_mobile_number">New Mobile Number</string>
+    <string name="update_your_mobile_number">Update Your Mobile Number</string>
+    <string name="both_number_cannot_be_same">Both numbers cannot be same</string>
+    <string name="incorrect_current_mobile_number">Incorrect current mobile number</string>
+    <string name="verification_request_message_for_mobile_number">A Verification-Key has been sent to the requested mobile number. Please enter this verification-Key for successfully update of your requested mobile number.</string>
+    <string name="enter_verification_key_for_change_mobile_number">Enter Verification key for changing mobile number</string>
+    <string name="mobile_number_updated_successfully">Mobile number updated successfully</string>
+    <string name="please_enter_otp">Please enter otp</string>
+
+    <!--APP RELATED-->
+    <string name="no_internet_connection">No Internet Connection.</string>
+    <string name="request_time_out">We could not connect to the server.</string>
+    <string name="crash_error">Oops! Something went wrong on server.</string>
+    <string name="action_text_ok">OK</string>
+    <string name="action_text_cancel">CANCEL</string>
+    <string name="api_loading_dialog_message_requesting">Requesting...</string>
+    <string name="api_loading_dialog_message_authenticating">Authenticating...</string>
+    <string name="location_setting_not_on">Location Settings not ON.</string>
+    <string name="qr_code">QR Code</string>
+    <string name="scan_status">Scan Status</string>
+    <string name="scan_response">Response</string>
+    <string name="scan_date">Scan Date</string>
+    <string name="brand_name">Brand Name</string>
+    <string name="scan_invalid">Invalid</string>
+    <string name="scan_valid">Valid</string>
+    <string name="feedback_successfully_submitted">Feedback successfully submitted</string>
+    <string name="no_data_available">No data available</string>
+    <string name="onpost_title">Home</string>
+
+    <string name="sending_report">Sending...</string>
+    <string name="report_success">Report successfully submited</string>
+    <string name="please_enter_feedback_for_report">Please enter your comment</string>
+    <string name="barcode_view_message">Place a bar/ QR code inside the viewfinder rectangle to scan it</string>
+
+    <!--SIGNIN & SIGNUP SCREEN-->
+    <string name="name">Name</string>
+    <string name="email">Email</string>
+    <string name="mobile_number">Mobile Number</string>
+    <string name="sign_up_button_text">SIGN UP</string>
+    <string name="sign_in_button_text">SIGN IN</string>
+    <string name="sign_in_bottom_text">Sign In if you are an existing user.</string>
+    <string name="sign_up_bottom_text">Sign UP if you are a new user.</string>
+    <string name="choose_language_text">Choose Language</string>
+    <string name="enter_verification_key_for_login">Enter Verification key for Login</string>
+    <string name="verifying">Verifying</string>
+    <string name="verification_request_message_for_login">A Verification-Key is sent to Your Mobile Number and Email. Please provide this Verification-Key for successfull Sign In.</string>
+    <string name="verification_request_message_for_login_error">"We don't have your details in our system. Please Sign Up."</string>
+    <string name="mobile_number_already_exists">"Your Mobile Number already registered in system. Please sign In."</string>
+    <string-array name="country_arrays" color="#FFFFFF">
+        <item>	India	</item>
+        <!--<item>  US</item>-->
+    </string-array>
+
+    <string-array name="language_arrays" color="#FFFFFF">
+        <item>	English	</item>
+        <item>  हिंदी   </item>
+    </string-array>
+
+</resources>
