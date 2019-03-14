@@ -261,12 +261,12 @@ public class FragmentRetailerReplacement extends Fragment implements View.OnClic
 
             ServiceCalls objServiceCall = new ServiceCalls(activity, (Utils.getPreference(activity, PreferenceKeys.MODULE_TYPE, "fans").equalsIgnoreCase("fans") ? API_CONSTANTS.API_BASE : API_CONSTANTS.API_BASE_APPLIANCE1) + API_CONSTANTS.API_REPLACE_WARRANTY,
                     jsonObject.toString(), "Requesting...", 0, new AsyncResponseActivity() {
-
                 @Override
                 public void myAsyncResponse(String result) {
                     parseData(result);
                 }
             });
+
             if (cd.isConnectingToInternet()) {
                 objServiceCall.execute(1);
             } else {
